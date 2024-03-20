@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".MainActivity">
 
     <EditText
         android:id="@+id/nameUser_editText"
@@ -24,13 +24,18 @@
         android:id="@+id/showUsers_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Show users" />
+        android:text="Show/Hide users" />
+
+    <Button
+        android:id="@+id/deleteAllUsers_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete all Users" />
 
     <ListView
         android:id="@+id/users_listView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
-
 
 
 
